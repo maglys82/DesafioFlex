@@ -20,11 +20,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
 }
 
-
 .logo {
-    width: 10em;
-    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+
+}
+
+.text-principal {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    }
+
+.text-secundario {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #1B1F21;
+    width: 478px;
+    height: 47px;
+    left: 561px;
+    top: 529px
 }
