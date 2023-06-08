@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -10,12 +11,12 @@
 }
 
 .contacts {
-    border: 1px red solid;
     flex-grow: 1;
+    border-right: 2px #F2F2F2 solid;
 }
 
 .principal {
-    border: 1px green solid;
+    background-color: #F8F8F8;
     flex-grow: 4;
     display: flex;
     justify-content: center;
@@ -28,7 +29,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .logo img {
@@ -40,15 +41,13 @@
 }
 
 .text-principal {
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 45px;
-    }
+}
 
 .text-secundario {
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     text-align: center;
     color: #1B1F21;
@@ -56,4 +55,39 @@
     height: 47px;
     left: 561px;
     top: 529px
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 31px;
+    border-bottom: 1.5px #F2F2F2 solid;
+}
+
+.item:first-child {
+    margin-right: auto;
+}
+
+.item:last-child {
+    margin-left: auto;
+}
+
+.user .icons {
+    text-align: right;
+    color: #828485;
+}
+
+.user .user-name {
+    padding-left: 2px;
+}
+
+.user .status {
+    font-family: 'Open Sans';
+    font-size: 10px;
+    color: #828485
+}
+
+.user .avatar {
+    border-radius: 50%;
+    margin-right: 10px;
 }
