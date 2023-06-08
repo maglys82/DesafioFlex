@@ -5,12 +5,26 @@
 
 .container {
     display: flex;
+    align-items: stretch;
+    min-height: 100vh;
 }
 
 .contacts {
     border: 1px red solid;
+    flex-grow: 1;
 }
 
 .principal {
     border: 1px green solid;
+    flex-grow: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.logo {
+    width: 10em;
+    height: 10em;
 }
