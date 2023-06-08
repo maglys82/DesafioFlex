@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.contacts {
+    border: 1px red solid;
+}
+
+.principal {
+    border: 1px green solid;
+}
