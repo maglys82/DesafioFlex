@@ -99,8 +99,8 @@
 .chat {
     display: flex;
     justify-content: center;
-    padding: 41px 51px;
-
+    align-items: center;
+    height: 148px;
 }
 
 .new-chat-button {
@@ -131,6 +131,12 @@
     padding-top: 21px;
     margin-right: 14px;
     padding-bottom: 17.5px;
+}
+
+.friends{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .friend {
