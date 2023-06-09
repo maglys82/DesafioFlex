@@ -48,8 +48,6 @@
 
 .text-secundario {
     font-family: 'Open Sans';
-    font-style: normal;
-    font-size: 16px;
     text-align: center;
     color: #1B1F21;
     width: 478px;
@@ -61,6 +59,7 @@
 .user {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 14px 31px;
 
 }
@@ -100,7 +99,7 @@
 .chat {
     display: flex;
     justify-content: center;
-    padding: 51px 51px;
+    padding: 41px 51px;
 
 }
 
@@ -122,7 +121,7 @@
 }
 
 .border {
-    border-bottom: 1.5px #F2F2F2 solid;
+    border-bottom: 1.5px #BEC1BB solid;
 }
 
 .imagen-contacts {
@@ -140,18 +139,14 @@
 }
 
 .new-contacts {
-    padding-top: 21px;
-    font-family: 'Roboto';
+    padding-top: 29px;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     color: #1B1F21;
 }
 
 .estado {
+    margin-top: 1px;
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #1B1F21;
