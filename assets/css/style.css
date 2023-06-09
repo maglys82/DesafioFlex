@@ -43,6 +43,7 @@
 .text-principal {
     font-weight: 300;
     font-size: 45px;
+    padding-top: 25px;
 }
 
 .text-secundario {
@@ -61,7 +62,7 @@
     display: flex;
     justify-content: space-between;
     padding: 14px 31px;
-    border-bottom: 1.5px #F2F2F2 solid;
+    
 }
 
 .item:first-child {
@@ -73,8 +74,12 @@
 }
 
 .user .icons {
+
+    display: flex;
+    gap: 17.03px;
     text-align: right;
     color: #828485;
+    font-size: 1.3rem;
 }
 
 .user .user-name {
@@ -90,4 +95,35 @@
 .user .avatar {
     border-radius: 50%;
     margin-right: 10px;
+}
+
+.chat {
+    display: flex;
+    justify-content: center;
+    padding: 51px 51px;
+    
+    
+    
+   
+}
+
+.new-chat-button {
+    background-color: #A491D2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 185px;
+    height: 46px;
+}
+
+.new-chat-button:hover {
+    background-color: #A491D2;
+}
+
+.border{
+    border-bottom: 1.5px #F2F2F2 solid;
 }
