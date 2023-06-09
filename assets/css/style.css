@@ -62,7 +62,7 @@
     display: flex;
     justify-content: space-between;
     padding: 14px 31px;
-    
+
 }
 
 .item:first-child {
@@ -101,10 +101,7 @@
     display: flex;
     justify-content: center;
     padding: 51px 51px;
-    
-    
-    
-   
+
 }
 
 .new-chat-button {
@@ -124,6 +121,38 @@
     background-color: #A491D2;
 }
 
-.border{
+.border {
     border-bottom: 1.5px #F2F2F2 solid;
+}
+
+.imagen-contacts {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 51px;
+    padding-top: 21px;
+    margin-right: 14px;
+    padding-bottom: 17.5px;
+}
+
+.friend {
+    display: flex;
+    padding-left: 30px;
+}
+
+.new-contacts {
+    padding-top: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1B1F21;
+}
+
+.estado {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1B1F21;
 }
